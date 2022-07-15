@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC>
+
+<html lang="es">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>AHORCADO</title>
+        <link rel="stylesheet" href="CSS/estilopag2.css">
+        
+
+    </head>
+
+    <body>
+
+        <div id="logo">
+
+            <img class="logoimg" src="IMG/Logo.png">
+
+        </div>
+
+        
+
+        <div id="palabra">
+
+            <input type="text" id="ingrese-palabra" placeholder="Ingrese una palabra" maxlength="8" pattern="[A-Z]" autofocus >
+
+            <img src="IMG/exclamation.png" id="exclamation">
+            <p id="maximo-palabra">Máx. de 8 letras</p>
+
+            
+        </div>
+
+        <div id="botones">
+
+            <button id="botonGuardar" onclick="anadirPalabra()"><h2 id="text-btn-Guardar">Guardar y empezar</h2></button>
+
+            <button id="botonCancelar" onclick="window.location.href='index.html'"><h2 id="text-btn-Cancelar">Cancelar</h2></button>
+
+        </div>
+       
+
+        <footer id="rodapies"> Realizado por Ing. Julian Andres Muñoz e-mail: julimunoz@gmail.com</footer>
+
+        <script type="text/javascript" src="JS/anadirPalabra.js"></script>
+        
+
+    </body>
+
+</html>

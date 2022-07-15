@@ -1,0 +1,53 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+  "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+    <head>
+        <title>ENCRIPTADOR</title>
+        <link rel="stylesheet" href="miestilo.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="logo">
+
+                <img class="logoimg" src="https://github.com/julimunoz/ENCRIPTADOR/blob/gh-pages/Logo.png" >
+                <h1 class="titulo">ENCRIPTADOR DE MENSAJES</h1>
+
+            </div>    
+
+            <div class="panelIzquierdo">
+
+                <input id="mensajeAEncriptar" placeholder="Ingrese texto aqui">
+            
+            </div>    
+
+            <div class="panelDerecho">
+                
+                
+                <img id="muneco" src="https://github.com/julimunoz/ENCRIPTADOR/blob/gh-pages/muneco.png" >
+                <h1 id="textonmfe">Ningun mensaje fue encontrado</h1>
+                <textarea type="text" id="mensajeEncriptado"> Ingrese el texto que desea encriptar o desencriptar</textarea>
+                <button id="botonCopiar" onclick="copiarAPortaPapeles()">COPIAR</button>
+
+
+            </div>  
+
+
+            <div class="botones">
+
+                <img id="vector" src="https://github.com/julimunoz/ENCRIPTADOR/blob/gh-pages/Vector.png" >
+                <p id="textomin">Solo minusculas y sin acentos</p>
+                <button id="botonEncriptar" onclick="encriptar()">ENCRIPTAR</button>
+                <button id="botonDesencriptar" onclick="desencriptar()">DESENCRIPTAR</button>
+
+        </div>
+
+        <footer id="rodapies"> Realizado por Julian Andres Muñoz e-mail: julimujnoz@gmail.com</footer>
+
+    </body>
+
+</html>

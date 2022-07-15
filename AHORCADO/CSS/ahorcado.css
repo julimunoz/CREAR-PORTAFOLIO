@@ -1,0 +1,679 @@
+body {
+  
+	position: relative;
+	width: 1220px;
+	height: 550px;
+
+
+	padding-left: 1px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: purple;
+	background-color: #F3F5FC; 
+
+}
+
+#logo {
+
+    /* Frame 4 */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 10px;
+    top: 10px;
+
+}
+
+#logoimg {
+
+	/* Vector */
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+	
+}
+
+#canvas {
+
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    width: 400;
+    height: 250;
+
+    border-color: #000000;
+    border: 2px;
+    
+}
+
+#mensaje {
+
+    position: absolute;
+    left: 900px;
+    top: 100px;
+    width: 200;
+    height: 100;
+    font-size: 25px;  
+
+}
+
+.keyboard {
+
+    /* Keyboard */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 595px;
+    height: 152px;
+    left: 388px;
+    top: 306px;
+    
+ }
+
+.word{
+
+    /* Word */
+    width: 595px;
+    height: 92px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+#letter1 {
+
+    /* Letter */
+    position: absolute;
+    width: 70px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+
+}
+
+#letra1 {
+
+    /* A */
+
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+    text-align: center;
+    color: #000000;
+    opacity: 1;
+
+}
+
+#rectangulo1{
+
+    /* Rectangle 1 */
+
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 0px;
+    top: 80px;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 8px;
+
+}
+
+#letter2 {
+
+    /* Letter */
+    position: absolute;
+    width: 70px;
+    height: 92px;
+    left: 75px;
+    top: 0px;
+
+}
+
+#letra2 {
+
+    /* B */
+
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+    text-align: center;
+    color: #000000;
+    opacity: 1;
+
+}
+
+#rectangulo2{
+
+    /* Rectangle 2 */
+
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 0px;
+    top: 80px;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 8px;
+
+}
+
+#letter3 {
+
+    /* Letter */
+    position: absolute;
+    width: 70px;
+    height: 92px;
+    left: 150px;
+    top: 0px;
+
+}
+
+#letra3 {
+
+    /* C */
+
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+    text-align: center;
+    color: #000000;
+    opacity: 1;
+
+}
+
+#rectangulo3{
+
+    /* Rectangle 3 */
+
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 0px;
+    top: 80px;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 8px;
+
+}
+
+#letter4 {
+
+    /* Letter */
+    position: absolute;
+    width: 70px;
+    height: 92px;
+    left: 225px;
+    top: 0px;
+    
+
+}
+
+#letra4 {
+
+    /* D */
+
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 1;
+
+}
+
+
+
+#rectangulo4{
+
+    /* Rectangle 4 */
+
+
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 0px;
+    top: 80px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 8px;
+
+}
+
+#letter5 {
+
+    /* Letter */
+    position: absolute;
+    width: 70px;
+    height: 92px;
+    left: 300px;
+    top: 0px;
+    
+
+}
+
+#letra5 {
+
+    /* E */
+
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 1;
+
+}
+
+
+
+#rectangulo5{
+
+    /* Rectangle 6 */
+
+
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 0px;
+    top: 80px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 8px;
+
+}
+
+#letter6 {
+
+    /* Letter */
+    position: absolute;
+    width: 70px;
+    height: 92px;
+    left: 375px;
+    top: 0px;
+    
+
+}
+
+#letra6 {
+
+    /* F */
+
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 1;
+
+}
+
+
+#rectangulo6{
+
+    /* Rectangle 6 */
+
+
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 0px;
+    top: 80px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 8px;
+
+}
+
+#letter7 {
+
+    /* Letter */
+    position: absolute;
+    width: 70px;
+    height: 92px;
+    left: 450px;
+    top: 0px;
+    
+
+}
+
+#letra7 {
+
+    /* G */
+
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 1;
+    
+
+}
+
+#rectangulo7{
+
+    /* Rectangle 7 */
+
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 0px;
+    top: 80px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 8px;
+
+}
+
+#letter8 {
+
+    /* Letter */
+    position: absolute;
+    width: 70px;
+    height: 92px;
+    left: 525px;
+    top: 0px;
+    
+
+}
+
+#letra8 {
+
+    /* H */
+
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 1;
+    
+
+}
+
+#rectangulo8{
+
+    /* Rectangle 8 */
+
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    left: 0px;
+    top: 80px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 8px;
+
+}
+
+#otherletter {
+
+    /* Other letters */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 186px;
+    height: 30px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+#botones {
+
+    /* Frame 3 */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 688px;
+    height: 67px;
+    left: 376px;
+    top: 481px;
+
+}
+
+#botonNuevoJuego {
+
+    /* Button */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 282px;
+    height: 60px;
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+#text-btn-Nuevo {
+
+    /* texto Boton */
+
+
+    width: 284px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+    text-align: center;
+    color: #FFFFFF;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+#botonDesistir {
+
+    /* Button */
+
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 282px;
+    height: 60px;
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+#text-btn-Desistir {
+
+    /* texto Boton cancelar */
+
+    width: 284px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1px;
+    text-align: center;
+    color: #0A3871;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+#ingresoletras{
+
+    position: absolute;
+    left: 100;
+    top: 80;
+    width: 100px;
+    height: 25;
+    opacity: 1;  /*para que no se vea, varia entre 0 y 1, donde 1 es completamente visible*/
+
+}
+
+#label_ingresoletras {
+    position: absolute;
+    left: 100;
+    top: 60;
+
+}
+
+
+#rodapies {
+
+	position: absolute;
+	left: 320;
+	top: 341px;
+	float: left;
+	margin-left: 10%;
+	margin-top: 20%;
+	color: #495057;
+
+}

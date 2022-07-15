@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+        
+        <title>AHORCADO</title>
+        <link rel="stylesheet" href="CSS/ahorcado.css">
+        
+
+    </head>
+
+    <body onload="ahorcado()">
+        <!-- onload espera que se carguen todos los elementos de la pagina y ejecuta
+            el codigo definido -->
+
+        <div id="logo">
+
+            <img class="logoimg" src="IMG/Logo.png">
+
+        </div>
+        <label id="label_ingresoletras" for="ingresoletras">Seleccione este cuadro de texto y empieza a jugar</label>
+        <input id="ingresoletras"  value="" autofocus> <!-- asi coloco que el foco se coloque en ese input al cargr la pagina -->
+        
+        <canvas id="canvas" > </canvas> <!-- se debe definir primero el canvas antes del js, porqe si no da error-->
+        <p id="mensaje"></p>
+
+        <div class="keyboard">
+
+            <div class="word">
+
+                <div id="letter1">
+
+                    <input id="letra1" placeholder="A">
+                    <img src="IMG/Rectangle.png" id="rectangulo1">
+
+                </div>
+
+                <div id="letter2">
+
+                    <input id="letra2" placeholder="B">
+                    <img src="IMG/Rectangle.png" id="rectangulo2">
+
+                </div>
+
+                <div id="letter3">
+
+                    <input id="letra3" placeholder="C">
+                    <img src="IMG/Rectangle.png" id="rectangulo3">
+
+                </div>
+
+                <div id="letter4">
+
+                    <input id="letra4" placeholder="D">
+                    <img src="IMG/Rectangle.png" id="rectangulo4">
+
+                </div>
+
+                <div id="letter5">
+
+                    <input id="letra5" placeholder="E">
+                    <img src="IMG/Rectangle.png" id="rectangulo5">
+
+                </div>
+
+                <div id="letter6">
+
+                    <input id="letra6" placeholder="F">
+                    <img src="IMG/Rectangle.png" id="rectangulo6">
+
+                </div>
+
+                <div id="letter7">
+
+                    <input id="letra7" placeholder="G">
+                    <img src="IMG/Rectangle.png" id="rectangulo7">
+
+                </div>
+
+                <div id="letter8">
+
+                    <input id="letra8" placeholder="H">
+                    <img src="IMG/Rectangle.png" id="rectangulo8">
+
+                </div>
+
+            </div>
+
+            <div id="otro">
+
+                <input id="otherletter" placeholder="other">
+
+            </div>
+
+
+
+        </div>
+
+        
+
+        <div id="botones">
+
+            <button id="botonNuevoJuego" onclick="location.reload()"><h2 id="text-btn-Nuevo">Nuevo juego</h2></button>
+
+            <button id="botonDesistir" onclick="window.location.href='index.html'"><h2 id="text-btn-Desistir">Desistir</h2></button>
+
+        </div>
+       
+
+        <footer id="rodapies"> Realizado por Ing. Julian Andres Muñoz e-mail: julimunoz@gmail.com</footer>
+
+        <script type="text/javascript" src="JS/script.js"></script>
+
+    </body>
+
+</html>

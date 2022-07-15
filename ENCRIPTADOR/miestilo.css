@@ -1,0 +1,195 @@
+body {
+  
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+
+
+	padding-left: 1px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: purple;
+	background-color: #F3F5FC; 
+
+}
+
+.container{
+
+	margin: auto;
+	width: 960px;
+	height: 550px;
+	padding: 5px;
+	
+}
+
+.logo {
+
+		float: left;
+		width: 100%;
+		
+
+	}
+
+.panelIzquierdo {
+
+		float: left;
+		width: 70%;
+		height: 60%;
+		
+	
+	}
+
+.panelDerecho {
+
+		float: right;
+		width: 30%;
+		height: 81.6%;
+		background: #FFFFFF;
+		
+	
+	}
+
+.botones {
+
+		float: left;
+		width: 70%;
+		
+	
+	}
+
+.botonCopiar {
+
+		float: right;
+		width: 30%;
+		background: lightcyan;
+	
+	}
+
+.logoimg {
+
+	margin-top: 1%;
+	margin-left: 2%;
+	float: inherit;
+
+	/* Dark blue/dark-blue-300 */
+
+	//background: #0A3871;
+}
+
+.titulo {
+
+	float: inherit;
+	margin-left: 10%;
+
+
+}
+
+#mensajeAEncriptar{
+
+	float: left;
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 80%;
+	height: 20%;
+	color: #0A3871;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	background: #F3F5FC;
+	
+
+
+}
+
+#muneco{
+
+	margin-top: 1%;
+	width: 100%;
+	height: auto;%;
+
+}
+
+#textonmfe{
+
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 20px;
+	color: #343A40;
+
+}
+
+#mensajeEncriptado{
+
+	float: left;
+	margin-left: 10%;
+	color: #0A3871;
+	width: 80%;
+	height: 32%;
+	border: none;
+	outline: none;
+	font-size: 15px;
+
+}
+
+#botonEncriptar{
+
+	padding: 24px;
+	width: 36%;
+	height: 60%;
+	border-radius: 24px;
+	margin-left: 15%;
+	background: #0A3871;
+
+
+}
+
+#botonDesencriptar{
+
+	padding: 24px;
+	width: 36%;
+	height: 60%;
+	border-radius: 24px;
+	margin-left: 5%;
+	background: #D8DFE8;
+	
+}
+
+#textomin{
+
+	margin-left: 15%;
+	margin-top: 3%;
+	font-size: 15px;
+	color: #495057;
+
+}
+
+#vector{
+
+	float: left;
+	margin-left: 15%;
+	margin-top: 3%;
+
+}
+
+#botonCopiar{
+
+	padding: 24px;
+	width: 66%;
+	height: 10%;
+	margin-top: 90%;
+	border-radius: 24px;
+	margin-left: 20%;
+	background: #D8DFE8;
+	display: none;
+	
+
+}
+
+#rodapies {
+
+	float: left;
+	margin-left: 10%;
+	margin-top: 1%;
+	color: #495057;
+
+
+}
